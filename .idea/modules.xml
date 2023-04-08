@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/front/front.iml" filepath="$PROJECT_DIR$/front/front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hotel.iml" filepath="$PROJECT_DIR$/hotel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaosage/xiaosage.iml" filepath="$PROJECT_DIR$/xiaosage/xiaosage.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hotel?characterEncoding=utf8&useSSL=true&rewriteBatchedStatements=true&autoReConnect=true&serverTimezone=GMT%2b8
+    username: root
+    password: 123456
+server:
+  port: 9091
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+mvc:
+  hiddenmethod:
+    filter:
+      enabled: true
+files:
+  upload:
+    path: D:/Project/files/
